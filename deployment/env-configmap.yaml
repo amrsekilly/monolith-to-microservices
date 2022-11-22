@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: amrPasswordBlink22
   POSTGRES_HOST: udegram-db.ckzppvjaimth.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: udegram-user-images

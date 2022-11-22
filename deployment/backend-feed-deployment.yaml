@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: amrsekilly/udagram-api-feed:v5
+          image: docker.io/amrsekilly/udagram-api-feed:v5
           envFrom:
             - secretRef:
                 name: env-secret
