@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: amrsekilly/udagram-frontend:v6
+          image: amrsekilly/udagram-frontend:v7
           envFrom:
             - secretRef:
                 name: env-secret
